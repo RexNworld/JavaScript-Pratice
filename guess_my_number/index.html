@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="bod">
+    <h1 class=" heading">Guess my number</h1>
+    <div class="container-fluid">
+        <header class="row a">
+
+            <div class="col-md-5">
+                <hr style="background-color: rgb(59, 20, 20);height: 10px;">
+            </div>
+            <div class="col-md-2 b">
+                <h1 class="ans">?</h1>
+            </div>
+            <div class="col-md-5">
+                <hr style="background-color: rgb(59, 20, 20);height: 10px;">
+            </div>
+        </header>
+    </div>
+    <section class="container" style="padding: 10%;">
+        <div class="row" style="text-align: center;">
+
+            <div class="col-6">
+                <h3>Input your number</h3>
+                <div>
+                    <input type="number" name="number" id="" class="guess"><br><br>
+                    <button type="submit" class="btn btn-primary check">Check!</button>
+                    <button type="submit" class="btn btn-danger restart" style="display : none;">Restart!</button>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div>
+                    <h3 class="message">Guessing Score....</h3>
+                </div>
+                <h4>Score : <span class="score">20</span></h4>
+                <h4>Highscore : <span class="highScore">0</span></h4>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

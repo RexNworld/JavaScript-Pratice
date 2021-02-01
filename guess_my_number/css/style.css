@@ -1,0 +1,35 @@
+
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+.bod{
+    background-color: #aaa;
+    
+    color: white;
+}
+.ap h1{
+    background-color: seashell;
+    margin: -15 auto;
+    width: 10%;
+}
+.a .b{
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin-top: 3%;
+}
+.a div{
+  margin-top: 5%;
+  
+}
+/* .container{
+    padding-top: 15%;
+} */
+.col{
+    display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+}

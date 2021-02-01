@@ -1,0 +1,109 @@
+.bod{
+    background-color: bisque;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.yourstory.com/cs/2/f02aced0d86311e98e0865c1f0fe59a2/robotics-1604127951366.png");
+}
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10% auto;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* Button style  */
+.container button{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.model-window{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 99%;
+    margin: 0 auto;
+    height: 100%;
+
+}
+.window{
+    position:absolute;
+    background-color:silver;
+    padding: 20px;
+    width: 50%;
+    height: 10cm;
+    margin: 10% auto;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.808), 0 6px 20px 0 rgba(0, 0, 0, 0.671);
+}
+.bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.yourstory.com/cs/2/f02aced0d86311e98e0865c1f0fe59a2/robotics-1604127951366.png");
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+    height: 100%; 
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.window-body{
+    padding: 20px;
+    font-synthesis:inherit;
+}
+.window-button{
+    float: right;
+}
+.window-header{
+    color: rgb(238, 73, 8);
+    text-shadow: 2px 2px 5px rgb(7, 1, 1);
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+    padding: 10px;
+}
