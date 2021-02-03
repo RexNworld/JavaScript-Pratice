@@ -1,0 +1,116 @@
+*{
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    background-image: linear-gradient(to bottom right, rgb(255, 16, 16), rgb(129, 16, 173));
+    height: 100%;
+    margin: 0 auto;
+}
+/* both white container */
+.col{
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 7%;
+    opacity: 0.6;
+    -webkit-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+
+}
+.main{
+    width: 80%;
+    justify-content: center;
+    margin: 0;
+    height: 70%;
+    display: flex;
+}
+.p0{
+    border-radius: 10px 0 0 10px;
+}
+.p1{
+    border-radius: 0 10px 10px 0;
+}
+.win{
+    color: red;
+    text-shadow: 4px 2px 4px rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+}
+.hidden{
+    display: none;
+}
+.active{
+    opacity: 1;
+    -webkit-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+}
+/* Current Box container */
+.current{
+    background-color: red;
+    width: 50%;
+    justify-content:center;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+}
+.score{
+    padding: 10%;
+    /* margin-bottom: 10%; */
+}
+/* All button absolute  */
+.w{
+    color: red;
+    text-shadow: 4px 2px 4px rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+.col2{
+    position: absolute;
+    margin: 0 auto;
+    display: grid;
+    bottom: 0%;
+}
+ .btn, .btn1 ,.btn2{
+    background-color: #ffffffec; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+.col2 img{
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+.score-p0, .score-p1{
+    color: red;
+    text-shadow: 4px 2px 4px rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: cursive;
+}

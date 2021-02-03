@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 - Pig Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="col p0 active">
+                <div class="score">
+                    <h1>PLAYER 1</h1>
+                    <h1 class="score-p0" id="p0-total">0</h1>
+                    <h1 class="win hidden">Winner</h1>
+                </div>
+                <div class="current">
+                    <h2>CURRENT</h2>
+                    <h2 id="p0-current">0</h2>
+                </div>
+
+            </div>
+            <div class="col p1">
+                <div class="score">
+                    <h1>PLAYER 2</h1>
+                    <h1 class="score-p1" id="p1-total">0</h1>
+                    <h1 class="win hidden">Winner</h1>
+                </div>
+                <div class="current">
+                    <h2>CURRENT</h2>
+                    <h2 id="p1-current">0</h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="col2">
+            <button class="btn" id="new-game"><i class="fa fa-play" style="font-size:20px"></i> NEW GAME</button>
+            <img id="dice-img" src="images/dice-0.png">
+            <button class="btn1" id="roll"><i class="fa" style="font-size:25px">&#x1F3B2;</i> ROLL THE DICE</button>
+            <button class="btn2" id="hold"><i class="fa fa-pause" style="font-size:20px"></i> HOLD</button>
+            <h2 id="winning" class="w">Made by<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: green;">
+                    ~Reshav</span></h2>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
